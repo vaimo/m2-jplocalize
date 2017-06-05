@@ -23,6 +23,12 @@
     "magento/framework": "~100.0",
     "lib-libxml": "*"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://repo.magento.com/"
+    }
+  ],
   "autoload": {
     "files": [
       "registration.php"
